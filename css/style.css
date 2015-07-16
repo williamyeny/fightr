@@ -21,3 +21,24 @@ html {
   animation-duration:20s;
   animation-iteration-count:infinite;
 }
+
+.buttons {
+	background-color:transparent;
+	display:inline-block;
+  float:right;
+	cursor:pointer;
+	color:#bdbdbd;
+	font-family:Arial;
+	font-size:28px;
+	padding:16px 31px;
+	text-decoration:none;
+}
+.buttons:hover {
+	color:#ffffff
+}
+.buttons:active {
+	position:relative;
+	top:1px;
+}
+
+}
