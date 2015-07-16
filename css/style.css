@@ -1,0 +1,18 @@
+@keyframes slideshow {
+  0% {background:url("http://i.ytimg.com/vi/KY4IzMcjX3Y/maxresdefault.jpg");}
+  25%{background: url("http://www.oldyelladogranch.com/puppies.jpg");}
+  75% {background:url("http://img1.wikia.nocookie.net/__cb20130404145553/darksouls/images/5/5b/Angry_Cat_Face_Wallpaper.jpg");}
+  100% {background:url("http://i.ytimg.com/vi/KY4IzMcjX3Y/maxresdefault.jpg");}
+}
+
+html { 
+  background: url("http://www.oldyelladogranch.com/puppies.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  transition-duration:0.5s;
+  animation:slideshow;
+  animation-duration:3s;
+  animation-iteration-count:infinite;
+}
