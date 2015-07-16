@@ -12,9 +12,6 @@
   100% {background:url(../img/gladiator.png) no-repeat center center fixed;background-size: cover;}
 }
 
-h1 {
-  text-align:center;
-}
 
 html { 
   font-family:"Open Sans";
@@ -29,26 +26,30 @@ html {
   animation-iteration-count:infinite;
 }
 
+
+
 nav {
- 
+  position: fixed;
+  
+  
 }
-
-ul {
-  text-align:right;
-}
-
-li {
+.buttons {
 	background-color:transparent;
 	display:inline;
 	cursor:pointer;
 	color:#bdbdbd;
 	font-family:Arial;
-	font-size:28px;
+  font-weight:bold;
+	font-size:16px;
 	padding:16px 31px;
 	text-decoration:none;
 }
+
 a:hover {
-	color:#ffffff
+	color:#ff0000
+}
+h1 {
+  text-align:center;
 }
 
 
