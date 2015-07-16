@@ -1,0 +1,16 @@
+@font-face {
+  font-family: "Montserrat";
+  src: url(https://www.google.com/fonts/specimen/Montserrat) format("truetype");
+}
+html { 
+  font-family: "Montserrat", sans-serif;
+  background-color: #FAFAFA;
+}
+
+h1 {
+  color: #FF6B6B;
+}
+
+p {
+  color: #5f5f5f;
+}
