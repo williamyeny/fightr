@@ -1,8 +1,13 @@
 @keyframes slideshow {
   0% {background:url(../img/gladiator.png) no-repeat center center fixed;background-size: cover;}
+  20% {background:url(../img/gladiator.png) no-repeat center center fixed;background-size: cover;}
   25%{background: url(../img/manny.jpg) no-repeat center center fixed;background-size: cover;}
-  75% {background:url(../img/pillow-fight.jpg) no-repeat center center fixed;background-size: cover;}
-  100% {background:url(../img/russians.jpg) no-repeat center center fixed;background-size: cover;}
+  45%{background: url(../img/manny.jpg) no-repeat center center fixed;background-size: cover;}
+  50% {background:url(../img/pillow-fight.jpg) no-repeat center center fixed;background-size: cover;}
+  70% {background:url(../img/pillow-fight.jpg) no-repeat center center fixed;background-size: cover;}
+  75% {background:url(../img/russians.jpg) no-repeat center center fixed;background-size: cover;}
+  95% {background:url(../img/russians.jpg) no-repeat center center fixed;background-size: cover;}
+  100% {background:url(../img/gladiator.png) no-repeat center center fixed;background-size: cover;}
 }
 
 html { 
@@ -13,27 +18,6 @@ html {
   background-size: cover;
   transition-duration:0.5s;
   animation:slideshow;
-  animation-duration:3s;
+  animation-duration:20s;
   animation-iteration-count:infinite;
-}
-
-.buttons {
-	background-color:transparent;
-	display:inline-block;
-  float:right;
-	cursor:pointer;
-	color:#bdbdbd;
-	font-family:Arial;
-	font-size:28px;
-	padding:16px 31px;
-	text-decoration:none;
-}
-.buttons:hover {
-	color:#ffffff
-}
-.buttons:active {
-	position:relative;
-	top:1px;
-}
-
 }
