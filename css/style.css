@@ -25,12 +25,16 @@ html {
 h1 {
     text-align: center;
     font-family: "Arial";
-    margin-top: 25%;
+    margin-top: 22%;
     color: white;
   
 }
 
-nav {
+#header img {
+  margin-top: 2%;
+}
+
+#nav {
   position: fixed;
   top: 25px;
 }
@@ -58,7 +62,8 @@ nav {
 	background-color:transparent;
 	display:inline-block;
 	cursor:pointer;
-	color:#bdbdbd;
+	color:#ffffff;
+  opacity: .75;
 	font-family:Arial;
   font-weight:bold;
 	font-size:14px;
@@ -67,7 +72,8 @@ nav {
 }
 
 .buttons:hover {
-	color:#ffffff
+	color:#ffffff;
+  opacity: 1;
 }
 
 .buttons:active {
