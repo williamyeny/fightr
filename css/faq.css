@@ -1,0 +1,68 @@
+@font-face {
+  font-family: "Montserrat";
+  src: url(https://www.google.com/fonts/specimen/Montserrat) format("truetype");
+}
+
+html { 
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  color: #4A4A4A;
+}
+
+#title {
+  color: #FF6B6B;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+#content {
+  position: absolute;
+  min-width: 769px;
+  box-sizing: border-box;
+  margin-left: 144px;
+  margin-right: 144px; 
+}
+
+#blurb {
+  padding-top: 48px;
+  padding-bottom: 48px;
+  border-bottom: 1px solid #F1F1F1;
+}
+
+#rules {
+  padding-top: 48px;
+  padding-bottom: 48px;
+  border-bottom: 1px solid #F1F1F1;
+}
+
+#rules2 {
+  background-color: #F1F1F1;
+  padding: 20px; 
+  border-radius: 6px;
+}
+
+#faq {
+  padding-top: 48px;
+  padding-bottom: 48px;
+}
+
+#question {
+  color: #4A4A4A;
+  margin-bottom: 26.400px;
+  font-weight: bold;
+}
+
+#answer {
+  background-color: #F1F1F1;
+  padding: 20px; 
+  margin-top: -6px;
+  margin-bottom: 40px;
+  border-radius: 6px;
+}
+
+#footer {
+  font-size: 15px;
+  color: #F1F1F1;
+  margin: auto;
+  text-align: center;
+}
