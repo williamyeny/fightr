@@ -29,27 +29,28 @@ html {
   animation-iteration-count:infinite;
 }
 
-#navbar {
-  margin-right: 10%;
+nav {
+ 
 }
-.buttons {
+
+ul {
+  text-align:right;
+}
+
+li {
 	background-color:transparent;
-	display:inline-block;
-  float:right;
+	display:inline;
 	cursor:pointer;
 	color:#bdbdbd;
 	font-family:Arial;
-  font-weight:bold;
-	font-size:16px;
-	padding:16px 16px;
+	font-size:28px;
+	padding:16px 31px;
 	text-decoration:none;
 }
-.buttons:hover {
+a:hover {
 	color:#ffffff
 }
-.buttons:active {
-	position:relative;
-	top:1px;
-}
+
+
 
 }
