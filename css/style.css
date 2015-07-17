@@ -1,3 +1,8 @@
+body:after{
+    display:none;
+    content: url(../img/gladiator.png) url(../img/manny.jpg) url(../img/pillow-fight.jpg) url(../img/russians.jpg);
+}
+
 @keyframes slideshow {
   0% {background:url(../img/gladiator.png) no-repeat center center fixed;background-size: cover;}
   20% {background:url(../img/gladiator.png) no-repeat center center fixed;background-size: cover;}
@@ -27,16 +32,16 @@ h1 {
     font-family: "Arial";
     margin-top: 22%;
     color: white;
-  
 }
 
-#play {
-  text-align: center;
+#header img {
+  margin-top: 2%;
 }
 
 #nav {
   position: fixed;
   top: 25px;
+  text-align:right;
 }
 
 .logo {
@@ -57,8 +62,6 @@ h1 {
   top: 25px;
   right: 25px;
 }
-
-
 
 .buttons {
 	background-color:transparent;
