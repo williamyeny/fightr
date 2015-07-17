@@ -52,6 +52,7 @@ nav {
   padding-left:20px;
   padding-right:20px;
   position:absolute;
+  height:100%;
   top:46px; bottom:0; left:0;
   background-color:#565656;
   letter-spacing:2px;
@@ -116,7 +117,6 @@ a {
   transition-duration:0.5s;
   margin-left:20px;
   margin-right:20px;
-  
 }
 
 .button:hover:before {
