@@ -1,3 +1,8 @@
+body:after{
+    display:none;
+    content: url(../img/gladiator.png) url(../img/manny.jpg) url(../img/pillow-fight.jpg) url(../img/russians.jpg);
+}
+
 @keyframes slideshow {
   0% {background:url(../img/gladiator.png) no-repeat center center fixed;background-size: cover;}
   20% {background:url(../img/gladiator.png) no-repeat center center fixed;background-size: cover;}
@@ -36,6 +41,7 @@ h1 {
 #nav {
   position: fixed;
   top: 25px;
+  text-align:right;
 }
 
 .logo {
@@ -78,6 +84,4 @@ h1 {
 .buttons:active {
 	position:relative;
 	top:1px;
-}
-
 }
