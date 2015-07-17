@@ -96,21 +96,29 @@ var selection = 0;
 $(document).ready(function(){
   newPerson();
   $("#accept").click(function(){
-    if (selection < names.length) {
+    if (selection < names.length + 1) {
         $("#accepts").append("<li>" + $("h3").html() + "</li>" );
-      newPerson();
-    } else {
-      alert("NO MORE PEOPLE TO FIGHT");
-    }
+      
+      
+      if (selection == names.length) {
+        alert("NO MORE PEOPLE TO FIGHT");
+      } else {
+        newPerson();
+      }
+    } 
   });
   
 
   $("#reject").click(function(){
     if (selection < names.length + 1) {
         $("#rejects").append("<li>" + $("h3").html() + "</li>" );
-      newPerson();
-    } else {
-      alert("NO MORE PEOPLE TO FIGHT");
+      
+      
+      if (selection == names.length) {
+        alert("NO MORE PEOPLE TO FIGHT");
+      } else {
+        newPerson();
+      }
     }
   });
     
