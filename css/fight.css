@@ -2,6 +2,50 @@
 
 html {
   font-family:"Montserrat";
+  background-color:#ff6b6b;
+}
+
+h2 {
+  color:white;
+}
+
+#menu {
+  position: fixed;
+  top: 25px;
+  right: 25px;
+}
+
+.buttons {
+	background-color:transparent;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+  opacity: .75;
+	font-family:Arial;
+  font-weight:bold;
+	font-size:14px;
+	padding:16px 16px;
+	text-decoration:none;
+}
+
+nav {
+  background-color:black;
+  opacity:0.5;
+  margin-left:-10px;
+  margin-right:-8px;
+  margin-top:-10px;
+  margin-bottom:-10px;
+  text-align:right;
+}
+
+.buttons:hover {
+	color:#ffffff;
+  opacity: 1;
+}
+
+.buttons:active {
+	position:relative;
+	top:1px;
 }
 
 #sidebar {
@@ -9,20 +53,23 @@ html {
   padding-left:20px;
   padding-right:20px;
   position:absolute;
-  top:0; bottom:0; left:0;
+  top:46px; bottom:0; left:0;
   background-color:#565656;
 }
 #content {
   position:absolute;
-  left:240px;
-  top:0px;
-  width:1000px;
+  left:0px;
+  top:46px;
+  width:100%;
+}
+
+h3 {
+  font-size:30px;
 }
 
 .block {
   margin-top:30px;
   padding-left:20px;
-  background-color:#e4b9b9;
   border-style:solid;
   border-width:2px;
   border-radius:10px;
@@ -33,6 +80,11 @@ img {
   float:left;
   margin-right:15px;
   display:inline-block;
+  border-style:solid;
+  border-width:5px;
+  border-radius:15px;
+  border-color:white;
+  width:300px;
 }
 
 #stats p {
@@ -49,41 +101,73 @@ a {
 }
 
 .button:before {
+  text-align:center;
   position:relative;
   width:50px;
-  background-color:#ff6b6b;
-  padding-top:5px;
-  padding-bottom:5px;
-  padding-left:10px;
-  padding-right:10px;
+  background-color:white;
+  padding-top:15px;
+  padding-bottom:15px;
+  padding-left:60px;
+  padding-right:60px;
   font-size:30px;
-  top:100px;
   border-style:solid;
   border-radius:10px;
+  transition-duration:0.5s;
+  margin-left:20px;
+  margin-right:20px;
+  
+}
+
+.button:hover:before {
+  opacity:0.5;
+  transition-duration:0.5s;
+}
+
+#a-r {
+  position:relative;
+  top:500px;
+  text-align:center;
+  margin:0 auto;
 }
 
 #accept:before{
   content:"ACCEPT";
-  position:relative;
-  left:-315px;
-  top:137px;
+  /*
+  top:175px;
+  left:-300px;
+  */
+  color:green;
+  border-color:green;
 }
 
 #reject:before {
   content:"REJECT";
-  left:-155px;
+  /*
+  top:138px;
+  */
+  color:red;
+  border-color:red;
 }
 
-#pic {
+#profile {
+  padding-top:5px;
+  padding-left:50px;
+  padding-right:50px;
+  background-color:white;
   left:270px;
   display:block;
-  width:500px;
-  margin:0 auto;
+  width:700px;
+  border-style:solid;
+  border-color:white;
+  border-width:1;
+  border-radius:10px;
+  padding-bottom:250px;
   margin-top:30px;
+  margin-left:auto;
+  margin-right:auto;
 }
-#buttons {
-  float:left;
-}
+
 .block li {
   margin-bottom:20px;
+  color:#ff6b6b;
 }
