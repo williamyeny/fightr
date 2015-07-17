@@ -66,3 +66,162 @@ html {
   margin: auto;
   text-align: center;
 }
+
+#navbar {
+  position:fixed;
+  min-width: 100%;
+  margin-top: -10px;
+  padding-top: 100px;
+  background-color: white;
+  z-index: 10;
+  border-bottom: solid 1px #f2f2f2;
+}
+
+#nav {
+  position: fixed;
+  top: 25px;
+}
+
+
+
+.logo {
+  height: 50px;
+  width: 50px;
+  display: block;
+  margin-left: 10px;
+  background:transparent url('/img/logo-hover.png') center top no-repeat;
+  background-size:contain;
+  z-index: 10;
+}
+
+.logo:hover {
+   background-image: url('/img/logo-hover.png');
+}
+
+#menu {
+  position: fixed;
+  top: 25px;
+  right: 25px;
+  
+}
+
+
+
+.buttons {
+	background-color:transparent;
+	display:inline-block;
+	cursor:pointer;
+	color:#8d8a8d;
+  opacity: .75;
+	font-family:Arial;
+  font-weight:bold;
+	font-size:14px;
+	padding:16px 16px;
+	text-decoration:none;
+  z-index: 3;
+}
+
+#selected {
+  color:#ff6b6b
+}
+
+.buttons:hover {
+	color:#ff6b6b;
+  opacity: 1;
+}
+
+.buttons:active {
+	position:relative;
+	top:1px;
+}
+
+#navbar2 {
+  position:fixed;
+  min-width: 100%;
+  margin-top: -10px;
+  padding-top: 100px;
+  z-index: 1;
+  visibility: "visible";
+}
+
+#nav2 {
+  position: fixed;
+  top: 25px;
+  visibility: "visible";
+}
+
+.logo2 {
+  height: 50px;
+  width: 50px;
+  display: block;
+  margin-left: 10px;
+  background:transparent url('/img/logo.png') center top no-repeat;
+  background-size:contain;
+  visibility: "visible";
+}
+
+.logo2:hover {
+   background-image: url('/img/logo-hover.png');
+}
+
+#menu2 {
+  position: fixed;
+  top: 25px;
+  right: 25px;
+  visibility: "visible";
+}
+
+
+
+.buttons2 {
+	background-color:transparent;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+  opacity: .75;
+	font-family:Arial;
+  font-weight:bold;
+	font-size:14px;
+	padding:16px 16px;
+	text-decoration:none;
+  z-index: 3;
+  visibility: "visible";
+}
+
+#selected2 {
+  color:#ffffff;
+  opacity: 1;
+  visibility: "visible";
+}
+
+.buttons2:hover {
+	color:#ffffff;
+  opacity: 1;
+}
+
+.buttons2:active {
+	position:relative;
+	top:1px;
+}
+.banner {
+  background-position: top center;
+  background-size: cover;
+  width: 100%;
+  height: 330px;
+  position: relative;
+  margin: 0;
+}
+
+.dimmer {
+  color: white;
+  width: 80%;
+  max-width: 600px;
+  text-align: center;
+  margin: auto;
+  left: 0;
+  right: 0;
+  position: absolute;
+  bottom: 10px;
+  font-size: 35px;
+  line-height: 35px;
+}
