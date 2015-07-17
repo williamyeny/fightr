@@ -1,5 +1,5 @@
 $(document).ready(function(){
     $("#accept").click(function(){
-        console.log("test");
+        $("#accepts").append("<li>" + $("h3").html + "</li>" );
     });
 });
