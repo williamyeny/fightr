@@ -30,8 +30,8 @@ h1 {
   
 }
 
-#header img {
-  margin-top: 2%;
+#play {
+  text-align: center;
 }
 
 #nav {
@@ -58,6 +58,8 @@ h1 {
   right: 25px;
 }
 
+
+
 .buttons {
 	background-color:transparent;
 	display:inline-block;
@@ -79,6 +81,4 @@ h1 {
 .buttons:active {
 	position:relative;
 	top:1px;
-}
-
 }
