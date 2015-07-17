@@ -4,17 +4,21 @@
   <meta charset="UTF-8">
   <title>FIGHT SOMEONE</title>
   <link rel="stylesheet" href="css/fight.css" type="text/css">
+   <link rel="stylesheet" href="css/animate.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
    <script src="js/accept-reject.js"></script>
+   <script src="http://mynameismatthieu.com/WOW/dist/wow.min.js"></script>
+   <script>
+ new WOW().init();
+</script>
   </head>
  <body>
    <nav>
        <a href="index.html" class="buttons">Fight</a>
-       <a href="#" class="buttons">Spectate</a>
-       <a href="#" class="buttons">Rules</a>    
+       <a href="#" class="buttons">Spectate</a>  
        <a href="faq.html" class="buttons">FAQ</a>
    </nav>
-   <div id="sidebar">
+   <div id="sidebar" class="wow slideInLeft">
      <div class="block" id="accepts">
        <h2>ACCEPTS</h2>
      </div>
@@ -23,7 +27,7 @@
      </div>
    </div>
    <div id="content">
-    <div id="profile">
+    <div id="profile" class="wow slideInUp">
       <h3>ARNOLD SCHWARZESOMETHING</h3>
       <img src="">
       <div id="stats">
@@ -36,7 +40,7 @@
       </div>
 
     </div>
-      <div id="a-r">
+      <div id="a-r" class="wow slideInRight">
         <a href="#" class="button" id="accept"></a>
         <a href="#" class="button" id="reject"></a>
       </div>
